@@ -1,0 +1,15 @@
+# Bỏ qua tệp cấu hình chính
+wp-config.php
+
+# Bỏ qua thư mục uploads chứa tệp hình ảnh và phương tiện
+wp-content/uploads/
+
+# Bỏ qua tệp backup và tệp không cần thiết
+*.log
+*.sql
+*.tar.gz
+*.zip
+
+# Bỏ qua các tệp của IDE hoặc các tệp cài đặt không cần thiết
+.vscode/
+.idea/
